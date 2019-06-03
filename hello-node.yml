@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hello
-        image: acrtestlau.azurecr.io/artemisa05/hello-node
+        image: lauacr.azurecr.io/artemisa05/hello-node
         resources:
           requests:
             cpu: 100m
