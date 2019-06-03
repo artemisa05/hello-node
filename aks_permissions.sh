@@ -1,9 +1,9 @@
 #!/bin/bash
 
 AKS_RESOURCE_GROUP=app-laurg
-AKS_CLUSTER_NAME=laaks
+AKS_CLUSTER_NAME=lauaks
 ACR_RESOURCE_GROUP=app-laurg
-ACR_NAME=acrtestlau
+ACR_NAME=lauacr
 
 # Get the id of the service principal configured for AKS
 CLIENT_ID=$(az aks show --resource-group $AKS_RESOURCE_GROUP --name $AKS_CLUSTER_NAME --query "servicePrincipalProfile.clientId" --output tsv)
